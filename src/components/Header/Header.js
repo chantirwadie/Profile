@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiPhonegap } from 'react-icons/di';
+import { CgProfile } from 'react-icons/cg';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons,Span } from './HeaderStyles';
 
@@ -10,7 +10,7 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white" ,marginBottom:"20px",}}>
-          <DiPhonegap size="3rem" /> <Span>Portefeuille</Span>
+          <CgProfile style={{marginRight:"5px"}} size="2rem" /> <Span>CHANTIR Wadie</Span>
         </a>
       </Link>
     </Div1>
@@ -32,13 +32,13 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://google.com">
+      <SocialIcons href="https://github.com/chantirwadie">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://google.com">
+      <SocialIcons href="https://www.linkedin.com/in/wadie-chantir-895402212/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://google.com">
+      <SocialIcons href="https://www.instagram.com/wadiechantir/">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>
