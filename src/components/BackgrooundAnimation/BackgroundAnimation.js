@@ -1,12 +1,13 @@
 import React from 'react';
-
 const BackgroundAnimation = () => (
   <div
     style={{
-      width: "420px",
+      width: "100%",
       height: "580px",
-      marginTop: "78px",
-      marginLeft: "100px",
+      marginTop: "2rem",
+      marginLeft: "2rem",
+      display: "flex",
+      
     }}
   >
     <img
@@ -16,7 +17,7 @@ const BackgroundAnimation = () => (
         objectFit: "cover",
         overflow: "hidden",
       }}
-      src="images/chantir.jpg"
+      src="images/chantir.png"
     />
   </div>
 );
