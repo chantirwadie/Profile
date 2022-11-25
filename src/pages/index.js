@@ -5,12 +5,17 @@ import Projects from '../components/Projects/Projects';
 import ProjectsBigData from '../components/ProjectsBigData/ProjectsBigData';
 import Technologies from '../components/Technologies/Technologies';
 import Algorithms from '../components/Algorithms/Algorithms';
+import { useEffect } from "react";
 
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section ,DivWitoutImg} from '../styles/GlobalComponents';
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "CHANTIR Wadie";
+  }, []);
+
   return (
     <Layout>
      <Section grid>

@@ -47,7 +47,7 @@ const Timeline = () => {
        <Section id="about">
       <SectionTitle>À propos de moi</SectionTitle>
       <SectionText>
-      Je recherche un stage d'été de deux mois soit dans le domaine du développement soit dans la technologie Données Massive | Data Science | Machine Learning.
+      Je recherche un stage de PFE à partir du 1er février 2023 dans les technologies Big Data | Data Science | Machine Learning | Programmation.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
