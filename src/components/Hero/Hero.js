@@ -11,11 +11,10 @@ const Hero = (props) => (
         Chantir Wadie
       </SectionTitle>
       <SectionText>
-        Je veux mettre mes compétences et mes expériences en pratique. Je
-        maîtrise les différentes étapes techniques de création d'un site ou
-        d'une application web, depuis l'analyse des besoins des clients, la
-        conception , l'implémentation côté front- end et back-end, y compris le
-        déploiemen. et actuallement je suis à la recherche d'un stage PFE.
+        Étudiant ingénieur, en 5ème année dans l'école nationale des sciences
+        appliquées El Jadida. Maintenant, je suis à la recherche d'une
+        opportunité de stage PFE en Big Data, Data science, BI, Machine
+        Learning.
       </SectionText>
       <Button
         onClick={() =>

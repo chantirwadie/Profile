@@ -7,13 +7,13 @@ const BackgroundAnimation = () => (
       marginTop: "2rem",
       marginLeft: "2rem",
       display: "flex",
-      
+
     }}
   >
     <img
       style={{
         width: "100%",
-        height: "100%",
+        height: "85%",
         objectFit: "cover",
         overflow: "hidden",
       }}
