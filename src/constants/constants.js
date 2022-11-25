@@ -49,7 +49,7 @@ export const projectsBigData = [
   {
     title: 'Mise en place d’un data lake pour la visualisation des données financières',
     description: "Récupération des données en temps réel à partie des API comme Twitter V2, Yahoo finance et New york  en utilisant KAFKA et hive pour manipuler et stocker les données sous format brut,qui vont être traitées par la suite en utilisant spark ML.",
-      image: '/images/7.png',
+      image: '/images/8.png',
       tags: ['SPARK', 'KAFKA', 'PYTHON','Hive','Docker'],
     source: 'https://github.com/chantirwadie',
     visit: '#',
@@ -58,7 +58,7 @@ export const projectsBigData = [
   {
     title: 'Manipulation des données en utilisant Apache Mahout',
     description: "Utilser mahout pour analyser et traiter des données stocker dans HDFS",
-    image: '/images/8.png',
+    image: '/images/7.png',
     tags: ['Hadoop',' HDFS', 'Mahout'],
     source: 'https://github.com/chantirwadie',
     visit: 'https://ensajblocs.netlify.app/',
