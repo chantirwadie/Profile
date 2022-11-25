@@ -1,16 +1,16 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsBigDataStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { projects } from '../../constants/constants';
+import { projectsBigData } from '../../constants/constants';
 
 const Projects = () => (
   <div>
      <Section nopadding id="projects">
     <SectionDivider />
-    <SectionTitle main>Projets de développement</SectionTitle>
+    <SectionTitle main>Projets de Big Data</SectionTitle>
     <GridContainer>
-      {projects.map((p, i) => {
+      {projectsBigData.map((p, i) => {
         return (
           <BlogCard key={i}>
           <Img src={p.image} />
@@ -20,7 +20,6 @@ const Projects = () => (
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
-              <TitleContent>Stack</TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;

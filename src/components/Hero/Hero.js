@@ -20,7 +20,7 @@ const Hero = (props) => (
       <Button
         onClick={() =>
           (window.location =
-            "https://s3.eu-central-1.amazonaws.com/stagiaires.ma/candidates/resumes/2022/09/202859_wadie-chantir.pdf?v=1662742879")
+            "https://www.stagiaires.ma/uploads_tmp/candidates/resumes/2022/11/1669390249_202859_wadie-chantir.pdf?v=1669390249")
         }
       >
         Mon cv
